@@ -1,0 +1,14 @@
+spring:
+  # 应用名
+  application:
+    name: mashup
+
+  # 激活的配置
+  profiles:
+    active: dev
+
+
+mybatis:
+  type-aliases-package: com.xrikui.mashup.entity
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/**/*.xml
