@@ -38,7 +38,8 @@
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
 
-        <!--<table schema="" tableName="t_user_info" domainObjectName="UserInfo"></table>-->
+       <!-- <table schema="" tableName="t_stock_config" domainObjectName="StockConfig"></table>-->
+        <table schema="" tableName="t_mashup_config" domainObjectName="MashupConfig"></table>
 
     </context>
 </generatorConfiguration>
