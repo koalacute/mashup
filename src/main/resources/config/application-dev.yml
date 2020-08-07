@@ -10,3 +10,10 @@ spring:
     username: root
     password: wangzherongyao
     initialize: false
+
+send:
+  feige:
+    url: http://u.ifeige.cn/api/message/send
+    secret: 9ec4e9dd4a2754039440919748a5b9d8
+    appKey: c767b545a3875c29b1ea4e0386b9c928
+    templateId: vZykWq7A36LwE4huJFPuUq42bkMZ0FWMl8-ghBu3CM4
