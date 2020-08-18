@@ -6,8 +6,8 @@ spring:
   # 数据库配置
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://111.229.78.80:3306/mashup?useUnicode=true&characterEncoding=utf-8&useSSL=false
-    username: root
+    url: jdbc:mysql://39.100.113.190:3306/mashup?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: mashup
     password: wangzherongyao
     initialize: false
 
